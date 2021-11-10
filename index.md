@@ -1,4 +1,20 @@
 <html>
+  <head> 
+    <script> 
+      function disableClick(){ 
+        document.onclick=function(event){ 
+          if (event.button == 2) { 
+            alert('Right Click Message'); 
+            return false; 
+          } 
+        } 
+      } 
+    </script> 
+  </head> 
+  <body onLoad="disableClick()">
+  </body> 
+  
+  
 <h3 id="title" style="margin: 0 auto;text-align: center;">MGA BAGONG TRUST LINES by Edmar</h3>
 <h3 id="title" style="margin: 0 auto;text-align: center;">DYOR - Do Your Own Research. Your own decision, action and responsibility. Diamond hands! Twitter? I-DYOR mo na yan aba! </h3>
   
@@ -76,22 +92,7 @@ getNewTokens();
 setInterval(getNewTokens, 45000);
 </script>
 
-<html> 
-  <head> 
-    <script> 
-      function disableClick(){ 
-        document.onclick=function(event){ 
-          if (event.button == 2) { 
-            alert('Right Click Message'); 
-            return false; 
-          } 
-        } 
-      } 
-    </script> 
-  </head> 
-  <body onLoad="disableClick()">
-  </body> 
-</html> 
+
 
 
 
