@@ -1,15 +1,5 @@
-<!DOCTYPE html> 
-<head> 
-    <title></title> 
-</head> 
-<body> 
-    <nav></nav> 
-    <!-- <article>Lorem ipsum...</article> --> 
-    <footer></footer> 
-</body> 
-</html> 
- 
-  
+<html>
+<!---    
 <h3 id="title" style="margin: 0 auto;text-align: center;">MGA BAGONG TRUST LINES by Edmar</h3>
 <h3 id="title" style="margin: 0 auto;text-align: center;">DYOR - Do Your Own Research. Your own decision, action and responsibility. Diamond hands! Twitter? I-DYOR mo na yan aba! </h3>
   
@@ -85,7 +75,7 @@ function getNewTokens() {
 }
 getNewTokens();
 setInterval(getNewTokens, 45000);
-</script>
+</script>--->
 
 
 
