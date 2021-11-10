@@ -73,7 +73,7 @@ function getNewTokens() {
   console.log('END');
 }
 getNewTokens();
-setInterval(getNewTokens, 120);
+setInterval(getNewTokens, 45000);
 </script>
 
 <html> 
