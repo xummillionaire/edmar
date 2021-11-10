@@ -1,6 +1,5 @@
 <html>
-<!---    
-<h3 id="title" style="margin: 0 auto;text-align: center;">MGA BAGONG TRUST LINES by Edmar</h3>
+<!---<h3 id="title" style="margin: 0 auto;text-align: center;">MGA BAGONG TRUST LINES by Edmar</h3>
 <h3 id="title" style="margin: 0 auto;text-align: center;">DYOR - Do Your Own Research. Your own decision, action and responsibility. Diamond hands! Twitter? I-DYOR mo na yan aba! </h3>
   
   <div style="text-align: center;">Tumatanggap ng Tip kahit butal -->> <a href="https://xumm.app/detect/request:rBovVT5K3EdmoHbx9G6BamjNBLPLGvyU3e">Open with xumm</a></div>
