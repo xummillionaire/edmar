@@ -76,23 +76,6 @@ getNewTokens();
 setInterval(getNewTokens, 120);
 </script>
 
-<html> 
-  <head> 
-    <script> 
-      function disableClick(){ 
-        document.onclick=function(event){ 
-          if (event.button == 2) { 
-            alert('Right Click Message'); 
-            return false; 
-          } 
-        } 
-      } 
-    </script> 
-  </head> 
-  <body onLoad="disableClick()">
-  </body> 
-</html> 
-
 
 
 
