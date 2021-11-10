@@ -1,20 +1,6 @@
 <html>
-  <html>
-  <head> 
-    <script> 
-      function disableClick(){ 
-        document.onclick=function(event){ 
-          if (event.button == 2) { 
-            alert('Right Click Message'); 
-            return false; 
-          } 
-        } 
-      } 
-    </script> 
-  </head> 
-  <body onLoad="disableClick()">
-  </body> 
-  <html>
+ 
+  <script language="JavaScript" type="text/javascript"><!-- //BRON:http://www.felgall.com/jstip35.htm document.onselectstart=new Function('return false') function ds(e){return false;} function ra(){return true;} document.onmousedown=ds; document.onclick=ra; // --></script>
   
 <h3 id="title" style="margin: 0 auto;text-align: center;">MGA BAGONG TRUST LINES by Edmar</h3>
 <h3 id="title" style="margin: 0 auto;text-align: center;">DYOR - Do Your Own Research. Your own decision, action and responsibility. Diamond hands! Twitter? I-DYOR mo na yan aba! </h3>
