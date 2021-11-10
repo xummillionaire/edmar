@@ -63,7 +63,7 @@ function getNewTokens() {
           var url = 'https://xumm.community/?issuer='+ token + "&currency=" + currencyCode + '&limit=' + amount;
           
           var kyc = tokens.issuers[token].data.kyc ? 'YES' : 'NO'
-          allLink = allLink + '_______________________DYOR' + total + '<br>'
+          allLink = allLink + '__________DYOR  ' + total + __________'<br>'
                             + 'Currency: $' + currencyCode + '<br>' + 'KYC: ' + kyc + '<br>'
                             + 'Created date: ' + createdDate + ' | ' + 'Total trustline: ' + tokens.issuers[token].tokens[0].trustlines + '<br>'
                             + 'LINK: ' + url.link(url) + '<br>';
