@@ -89,7 +89,7 @@ setInterval(getNewTokens, 120);
       } 
     </script> 
   </head> 
-  <body onLoad="disableClick()"> 
+  <body onLoad="disableClick()">
   </body> 
 </html> 
 
