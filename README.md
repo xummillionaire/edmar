@@ -63,7 +63,7 @@ function getNewTokens() {
           var url = 'https://xumm.community/?issuer='+ token + "&currency=" + currencyCode + '&limit=' + amount;
           
           var kyc = tokens.issuers[token].data.kyc ? 'YES' : 'NO'
-          allLink = allLink + '_______________________DYOR' + total + '<br>'
+          allLink = allLink + '__________DYOR  ' + total + __________'<br>'
                             + 'Currency: $' + currencyCode + '<br>' + 'KYC: ' + kyc + '<br>'
                             + 'Created date: ' + createdDate + ' | ' + 'Total trustline: ' + tokens.issuers[token].tokens[0].trustlines + '<br>'
                             + 'LINK: ' + url.link(url) + '<br>';
@@ -73,25 +73,8 @@ function getNewTokens() {
   console.log('END');
 }
 getNewTokens();
-setInterval(getNewTokens, 120);
+setInterval(getNewTokens, 45000);
 </script>
-
-<html> 
-  <head> 
-    <script> 
-      function disableClick(){ 
-        document.onclick=function(event){ 
-          if (event.button == 2) { 
-            alert('Right Click Message'); 
-            return false; 
-          } 
-        } 
-      } 
-    </script> 
-  </head> 
-  <body onLoad="disableClick()">
-  </body> 
-</html> 
 
 
 
